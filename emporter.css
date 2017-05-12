@@ -1,0 +1,162 @@
+/*début barre de navigation*/
+#menu-demo2, #menu-demo2 ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu-demo2 li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li:hover{
+border-radius:0;
+}
+#menu-demo2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu-demo2 li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menu-demo2 li:first-child{
+background-color: #CDC9C4;
+background-image:-webkit-linear-gradient(top, #CDC9C4 0%, #CDC9C4 100%);
+background-image:linear-gradient(to bottom, #CDC9C4 0%, #CDC9C4 100%);
+}
+#menu-demo2 li:nth-child(2){
+background-color:  #CDC9C4;
+background-image: -webkit-linear-gradient(top,#CDC9C4 0%, #CDC9C4 100%);
+background-image:linear-gradient(to bottom, #CDC9C4 0%, #CDC9C4 100%);
+}
+#menu-demo2 li:nth-child(3){
+background-color: #CDC9C4;
+background-image:-webkit-linear-gradient(top, #CDC9C4 0%,#CDC9C4 100%);
+background-image:linear-gradient(to bottom,#CDC9C4 0%, #CDC9C4 100%);
+}
+#menu-demo2 li:nth-child(4){
+background-color: #CDC9C4;
+background-image:-webkit-linear-gradient(top,#CDC9C4 0%, #CDC9C4 100%);
+background-image:linear-gradient(to bottom, #CDC9C4 0%, #CDC9C4 100%);
+}
+#menu-demo2 li:last-child{
+background-color: #CDC9C4;
+background-image:-webkit-linear-gradient(top, #CDC9C4 0%, #CDC9C4 100%);
+background-image:linear-gradient(to bottom, #CDC9C4 0%, #CDC9C4 100%);
+}
+/* background des liens sous menus */
+#menu-demo2 li:first-child li{
+background:#4B4C4E;
+}
+#menu-demo2 li:nth-child(2) li{
+background:#4B4C4E;
+}
+#menu-demo2 li:nth-child(3) li{
+background:#4B4C4E;
+}
+#menu-demo2 li:nth-child(4) li{
+background:#CDC9C4;
+}
+#menu-demo2 li:nth-child(5) li{
+background:#CDC9C4;
+}
+#menu-demo2 li:last-child li{
+background:#CDC9C4;
+}
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+background:#DC241F;
+}
+#menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+background:#DC241F;
+}
+#menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+background:#DC241F;
+}
+#menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(4) li:hover{
+background:#DC241F;
+}
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+background:#DC241F;
+}
+
+#menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:8px 50px;
+color:#1F211C;
+font-family:"Monotype Corsiva";
+font-size: 20px;
+}
+
+#header
+{
+  height:150px;
+  background: #767A7D;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family:"Monotype Corsiva";
+  font-size: 140px;
+  color: white;
+}
+
+#header2
+{
+  height: 50px;
+  background: #CDC9C4;
+}
+
+#header3
+{
+  height:700px;
+  background: white;
+  background-image: url(http://www.valli.fr/images/top.jpg);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  text-align:center
+
+}
+
+#paiement
+ {
+ background: black;
+ background: rgba(255,255,255,.3);
+ border-color: #CDC9C4;
+ border-color: black;
+ border-style: solid;
+ border-width: 2px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 20px;
+ line-height: 30px;
+ list-style: none;
+ padding: 20px 30px;
+ margin-bottom: 10px;
+ font-family:"Monotype Corsiva";
+ font-size: 40px;
+ font-weight: bolder;
+ color: black;
+}
+
+#header4
+{
+  height:80px;
+  background: #767A7D;
+}
